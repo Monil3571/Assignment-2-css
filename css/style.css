@@ -1,0 +1,95 @@
+@font-face {
+  font-family: heading;
+  src: url(../assets/roboto-font/RobotoMedium-Owv4.ttf);
+}
+@font-face {
+  font-family: storyTelling;
+  src: url(../assets/goodbye-my-lover-font/GoodbyeMyLover-Y092.ttf);
+}
+@font-face {
+  font-family: serious;
+  src: url(../assets/f-felt-condolences-85791/FeltCondolences-3zV06.otf);
+}
+@font-face {
+  font-family: sad;
+  src: url(../assets/manic-depressive-font/ManicDepressive-rlWL.ttf);
+}
+@font-face {
+  font-family: sadder;
+  src: url(../assets/thin-pencil-handwriting-font/ThinPencilHandwriting-zvmD.ttf);
+}
+@font-face {
+  font-family: scraping;
+  src: url(../assets/forbidden-land-font/ForbiddenLand-2rg3.ttf);
+}
+@font-face {
+  font-family: romantic;
+  src: url(../assets/romantic-story-font/RomanticStory-MVxBB.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+}
+h1 {
+  font-family: romantic;
+  font-size: 3.4em;
+  text-align: center;
+  margin: 0.2em 0.2em;
+  padding: 0.7em 1.9em;
+}
+.mainSection {
+  margin-top: 0.4em;
+  text-align: center;
+  font-size: 2em;
+}
+article {
+  margin: 1.2em 0.5em;
+  margin-bottom: 1.7em;
+  line-height: 1.2em;
+}
+
+span {
+  display: block;
+  /* margin: 1.1em 1.1em; */
+  /* padding: 1.5em 1.5em; */
+}
+.chorus {
+  font-family: sad;
+}
+
+.firstVerse {
+  font-family: storyTelling;
+}
+.secondVerse {
+  font-family: storyTelling;
+}
+.seriousLines {
+  /* margin: 0 auto; */
+  /* padding: 0.3em; */
+  /* width: fit-content; */
+  /* text-align: center; */
+  font-family: serious;
+  font-size: 1.2em;
+  /* background-color: black; */
+  /* color: white; */
+  /* border-radius: 1.8em; */
+}
+.sadLines {
+  font-family: scraping;
+  font-style: italic;
+  /* text-decoration: line-through; */
+  /* text-decoration-color:#DDD6F3; */
+}
+.ending {
+  font-family: romantic;
+  font-size: 1.4em;
+}
+.death {
+  font-family: romantic;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
